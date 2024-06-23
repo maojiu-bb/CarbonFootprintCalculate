@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B934F92C26AD7A00B18076 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B934F82C26AD7A00B18076 /* Demo.swift */; };
+		12B934FC2C26AF0100B18076 /* WelcomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B934FB2C26AF0100B18076 /* WelcomeItem.swift */; };
+		12B934FE2C26B63700B18076 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B934FD2C26B63700B18076 /* WelcomeView.swift */; };
+		12D330DD2C26CE770090E7CC /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D330DC2C26CE770090E7CC /* HistoryItem.swift */; };
+		12D330DF2C26D0FF0090E7CC /* HistoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D330DE2C26D0FF0090E7CC /* HistoryList.swift */; };
+		12D330E22C26D27D0090E7CC /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D330E12C26D27D0090E7CC /* History.swift */; };
+		12D330E52C26D7CF0090E7CC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D330E42C26D7CF0090E7CC /* MainView.swift */; };
+		12D330E82C26DBB30090E7CC /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D330E72C26DBB30090E7CC /* ResultView.swift */; };
+		12D330EB2C26DC1E0090E7CC /* EmissionFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D330EA2C26DC1E0090E7CC /* EmissionFactors.swift */; };
 		12E7C1C32C1EF8CC009F249C /* CarbonFootCalculateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1C22C1EF8CC009F249C /* CarbonFootCalculateApp.swift */; };
 		12E7C1C52C1EF8CC009F249C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1C42C1EF8CC009F249C /* ContentView.swift */; };
-		12E7C1C72C1EF8CC009F249C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1C62C1EF8CC009F249C /* Item.swift */; };
 		12E7C1C92C1EF8CD009F249C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1C82C1EF8CD009F249C /* Assets.xcassets */; };
 		12E7C1CC2C1EF8CD009F249C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CB2C1EF8CD009F249C /* Preview Assets.xcassets */; };
 		12E7C1D62C1EF8CD009F249C /* CarbonFootCalculateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1D52C1EF8CD009F249C /* CarbonFootCalculateTests.swift */; };
@@ -35,10 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B934F82C26AD7A00B18076 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		12B934FB2C26AF0100B18076 /* WelcomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeItem.swift; sourceTree = "<group>"; };
+		12B934FD2C26B63700B18076 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		12D330DC2C26CE770090E7CC /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		12D330DE2C26D0FF0090E7CC /* HistoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryList.swift; sourceTree = "<group>"; };
+		12D330E12C26D27D0090E7CC /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		12D330E42C26D7CF0090E7CC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		12D330E72C26DBB30090E7CC /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		12D330EA2C26DC1E0090E7CC /* EmissionFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmissionFactors.swift; sourceTree = "<group>"; };
 		12E7C1BF2C1EF8CC009F249C /* CarbonFootCalculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbonFootCalculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E7C1C22C1EF8CC009F249C /* CarbonFootCalculateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootCalculateApp.swift; sourceTree = "<group>"; };
 		12E7C1C42C1EF8CC009F249C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		12E7C1C62C1EF8CC009F249C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		12E7C1C82C1EF8CD009F249C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E7C1CB2C1EF8CD009F249C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12E7C1D12C1EF8CD009F249C /* CarbonFootCalculateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonFootCalculateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +89,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B934F72C26AD3800B18076 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C1C42C1EF8CC009F249C /* ContentView.swift */,
+				12D330E62C26DB9B0090E7CC /* Result */,
+				12D330E32C26D7B70090E7CC /* Main */,
+				12D330DA2C26CE320090E7CC /* History */,
+				12B934FA2C26AE9A00B18076 /* Welcome */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12B934FA2C26AE9A00B18076 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				12B934FB2C26AF0100B18076 /* WelcomeItem.swift */,
+				12B934FD2C26B63700B18076 /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		12D330DA2C26CE320090E7CC /* History */ = {
+			isa = PBXGroup;
+			children = (
+				12D330DC2C26CE770090E7CC /* HistoryItem.swift */,
+				12D330DE2C26D0FF0090E7CC /* HistoryList.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		12D330E02C26D2690090E7CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12D330E12C26D27D0090E7CC /* History.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12D330E32C26D7B70090E7CC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				12D330E42C26D7CF0090E7CC /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		12D330E62C26DB9B0090E7CC /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				12D330E72C26DBB30090E7CC /* ResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		12D330E92C26DC110090E7CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				12D330EA2C26DC1E0090E7CC /* EmissionFactors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		12E7C1B62C1EF8CC009F249C = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +174,13 @@
 		12E7C1C12C1EF8CC009F249C /* CarbonFootCalculate */ = {
 			isa = PBXGroup;
 			children = (
+				12D330E92C26DC110090E7CC /* Utils */,
+				12D330E02C26D2690090E7CC /* Models */,
+				12B934F72C26AD3800B18076 /* Views */,
 				12E7C1C22C1EF8CC009F249C /* CarbonFootCalculateApp.swift */,
-				12E7C1C42C1EF8CC009F249C /* ContentView.swift */,
-				12E7C1C62C1EF8CC009F249C /* Item.swift */,
 				12E7C1C82C1EF8CD009F249C /* Assets.xcassets */,
 				12E7C1CA2C1EF8CD009F249C /* Preview Content */,
+				12B934F82C26AD7A00B18076 /* Demo.swift */,
 			);
 			path = CarbonFootCalculate;
 			sourceTree = "<group>";
@@ -260,9 +340,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D330DF2C26D0FF0090E7CC /* HistoryList.swift in Sources */,
+				12D330E52C26D7CF0090E7CC /* MainView.swift in Sources */,
+				12B934FE2C26B63700B18076 /* WelcomeView.swift in Sources */,
+				12D330E22C26D27D0090E7CC /* History.swift in Sources */,
 				12E7C1C52C1EF8CC009F249C /* ContentView.swift in Sources */,
-				12E7C1C72C1EF8CC009F249C /* Item.swift in Sources */,
 				12E7C1C32C1EF8CC009F249C /* CarbonFootCalculateApp.swift in Sources */,
+				12B934F92C26AD7A00B18076 /* Demo.swift in Sources */,
+				12D330E82C26DBB30090E7CC /* ResultView.swift in Sources */,
+				12B934FC2C26AF0100B18076 /* WelcomeItem.swift in Sources */,
+				12D330EB2C26DC1E0090E7CC /* EmissionFactors.swift in Sources */,
+				12D330DD2C26CE770090E7CC /* HistoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
